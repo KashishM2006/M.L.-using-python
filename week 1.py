@@ -14,7 +14,7 @@ while True:
         item=input("Enter item to be deleted")
         if item in grocery:
             grocery.pop(item)
-            print(f"{item} {value} deleted.")
+            print(f"{item} deleted.")
         else :
             print(f"{item} not in list")
     elif choice==3:
@@ -174,4 +174,5 @@ for i in range(k):
             print(" ",end=" ")
         else:
             print(j+1,end=" ")
+
     print()
